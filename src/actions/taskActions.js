@@ -36,6 +36,20 @@ export const startDeleteTask = (id) => {
                     .then((response) => {
                         // console.log('Delete Task', response)
                         dispatch(deleteTask(id))
+                        // Swal.fire({
+                        //     icon:'warning',
+                        //     title: 'Are you sure you want to delete?',
+                        //     showDenyButton: true,
+                        //     confirmButtonText: 'Yes',
+                        //     denyButtonText: 'No',
+                        //   }).then((result) => {
+                        //     if (result.isConfirmed) {
+                        //         dispatch(deleteTask(id))
+                        //         Swal.fire('Client Task Deleted!', '', 'success')
+                        //     } else if (result.isDenied) {
+                        //       Swal.fire('Your record is safe', '', 'info')
+                        //     }
+                        //   })
                     })
                     .catch((err) => {
                         alert(err.message)

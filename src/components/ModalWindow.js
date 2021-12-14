@@ -6,6 +6,7 @@ import { FaRegEdit } from "react-icons/fa";
 import { AiFillDelete } from "react-icons/ai";
 import { useDispatch } from "react-redux";
 import { startDeleteTask } from "../actions/taskActions";
+import Swal from 'sweetalert2'
 
 const style = {
     position: 'absolute',
@@ -28,7 +29,21 @@ const ModalWindow =(props) =>{
         handleModalClose()
     }
     const handleDelete =() =>{
-        dispatch(startDeleteTask(id))
+        
+        Swal.fire({
+          icon:'warning',
+          title: 'Are you sure you want to delete?',
+          showDenyButton: true,
+          confirmButtonText: 'Yes',
+          denyButtonText: 'No',
+        }).then((result) => {
+          if (result.isConfirmed) {
+              dispatch(startDeleteTask(id))
+              Swal.fire('Client Task Deleted!', '', 'success')
+          } else if (result.isDenied) {
+            Swal.fire('Your record is safe', '', 'info')
+          }
+        })
     }
     return(
         <Modal

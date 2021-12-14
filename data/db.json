@@ -84,31 +84,11 @@
       "title": "fdfsd",
       "trackDate": "16-Dec",
       "status": "In Progress",
-      "statusPercent": 68,
-      "owner": "dsadfsfds",
-      "duration": "17-Dec - 24-Dec",
-      "id": 1639477577249,
-      "details": ""
-    },
-    {
-      "title": "fdfsd",
-      "trackDate": "16-Dec",
-      "status": "In Progress",
       "statusPercent": 75,
       "owner": "dsadfsfds",
       "duration": "17-Dec - 24-Dec",
       "id": 1639477694331,
       "details": ""
-    },
-    {
-      "title": "cxzdsfdfs",
-      "trackDate": "14-Dec",
-      "status": "Todo",
-      "statusPercent": 0,
-      "owner": "fdsfsdfsd",
-      "duration": "",
-      "id": 1639478769994,
-      "details": "fdsfdsfsd"
     },
     {
       "title": "gfhhh",
@@ -119,16 +99,6 @@
       "duration": "16-Dec - 25-Dec",
       "id": 1639478789925,
       "details": "vbcbvbg fggfd"
-    },
-    {
-      "title": "dsffdsfds",
-      "trackDate": "16-Dec",
-      "status": "Todo",
-      "statusPercent": 50,
-      "owner": " ffgdfdgfdgf",
-      "duration": "",
-      "id": 1639479073605,
-      "details": ""
     },
     {
       "title": "dfsfsdfsd",
@@ -148,36 +118,6 @@
       "owner": "dfsfds",
       "duration": "",
       "id": 1639479352915,
-      "details": ""
-    },
-    {
-      "title": "sdffds",
-      "trackDate": "16-Dec",
-      "status": "Todo",
-      "statusPercent": 63,
-      "owner": "dsadsa",
-      "duration": "24-Dec - 25-Dec",
-      "id": 1639479621746,
-      "details": "dsfafdsafdsa"
-    },
-    {
-      "title": "dsadsa",
-      "trackDate": "14-Dec",
-      "status": "Todo",
-      "statusPercent": 0,
-      "owner": "fsdsdffds",
-      "duration": "",
-      "id": 1639479670839,
-      "details": ""
-    },
-    {
-      "title": "sdafdsaf",
-      "trackDate": "14-Dec",
-      "status": "Todo",
-      "statusPercent": 0,
-      "owner": "sfdfsdfsd",
-      "duration": "",
-      "id": 1639479719373,
       "details": ""
     }
   ]

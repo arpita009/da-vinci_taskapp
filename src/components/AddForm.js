@@ -63,7 +63,7 @@ const AddForm =(props) =>{
             
         },
         
-        // validateOnChange : false,
+        validateOnChange : false,
         validationSchema: validationSchema
     })
    
