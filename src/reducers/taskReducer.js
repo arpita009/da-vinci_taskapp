@@ -15,6 +15,9 @@ const taskReducer= (state= taskInitialState, action) =>{
             const removed = state.data.filter((task) => task.id !== action.payload)
             return { ...state, data: [...removed] }
         }
+        case 'ADD_CLIENT_TASK':{
+            return {...state,data:[...state.data,action.payload]}
+        }
         default : {
             return state
         }

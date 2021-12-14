@@ -13,7 +13,7 @@ const TasksContainer =(props) =>{
     const allTasksInfo= useSelector((state)=>{
         return state.task.data
     })
-    console.log('allTasksInfo', allTasksInfo)
+    // console.log('allTasksInfo', allTasksInfo)
     const isLoading=useSelector(state => state.task.isLoading)
 
     useEffect(()=>{

@@ -7,7 +7,7 @@ import AddForm from "./AddForm";
 
 const style = {
     position: 'absolute',
-    top: '30%',
+    top: '50%',
     left: '70%',
     transform: 'translate(-50%, -50%)',
     width: 900,
@@ -19,6 +19,7 @@ const style = {
 
 const AddClientTask =(props) =>{
     const {openForm,handleClose} = props
+    
     return(
         <Modal
         open={openForm}
@@ -30,11 +31,8 @@ const AddClientTask =(props) =>{
           <Typography id="modal-modal-title" variant="h4" gutterBottom>
             Add Client Details
           </Typography>
-          <AddForm/>
-          <Box>
-            
-            <Button variant='contained' sx={{mt:3, ml:15}} onClick={handleClose}>Cancel</Button>
-          </Box>
+          <AddForm handleClose={handleClose} />
+          
           
         </Box>
       </Modal>
